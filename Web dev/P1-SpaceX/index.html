@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            color: white;
+            margin: 0;
+            padding: 0;
+            background: url('./space.jpg')no-repeat center center/cover;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .left {
+            position: absolute;
+            top: 8px;
+            left: 27px;
+            display: inline-block;
+        }
+
+        .middle {
+            margin: auto;
+            width: 34%;
+
+
+        }
+
+        h3 {
+            text-shadow: 2px 1px black;
+        }
+
+        .list li {
+            display: inline-block;
+
+
+            font-size: 1rem;
+        }
+
+        .list li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 10px;
+            font-weight: bold;
+
+        }
+
+        .list li a:hover,
+        .list li a:active {
+            text-decoration: underline;
+            color: gray;
+        }
+
+        .right {
+
+            position: absolute;
+            top: 3px;
+            right: 4px;
+            display: inline-block;
+        }
+
+        .btn {
+            padding: 7px 10px;
+            margin: 5px 5px;
+            background-color: white;
+            color: black;
+            box-shadow: 2px 2px lightblue;
+            border: 2px solid lightskyblue;
+        }
+
+        .btn:hover {
+            background-color: lightblue;
+            color: white;
+
+            box-shadow: 2px 2px white;
+            border: 2px solid lightskyblue;
+        }
+
+        .container {
+            border: 2px solid white;
+            background-color: #8ac1e3;
+            margin: 40px 68px;
+            padding: 15px 32px;
+            width: 30%;
+            border-radius: 20px;
+            text-align: center;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+
+            <h3>Space<em>X</em></h3>
+
+        </div>
+        <div class="middle">
+            <ul class="list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h3>Join US!!</h3>
+        <form action="alo.php">
+            <div class="box">
+                <label for="name">Name</label>
+                <input type="text" id="name">
+            </div>
+            <div class="box">
+                <label for="age">Age</label>
+                <input type="number" id="age">
+
+            </div>
+            <div class="box">
+
+                <label for="name1">Gender</label>
+                <input type="text" id="name1">
+            </div>
+            <div >
+
+                <textarea name="Address" id="" cols="30" rows="10"></textarea>
+            </div>
+            <button class="btn">Submit</button>
+
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>
